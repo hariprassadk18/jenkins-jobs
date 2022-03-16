@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Dev Build') {
+            steps {
+                echo 'Success'
+            }
+        }
+    
+    
+    
+        stage('Test Build') {
+            steps {
+                echo 'Success'
+            }
+        }
+    
+    
+    
+        stage('Prod Deploy') {
+            steps {
+                echo 'Success'
+            }
+        }
+        
+        stage('Deployment') {
+            steps {
+                echo 'Success'
+            }
+        }
+    
+}
+}
